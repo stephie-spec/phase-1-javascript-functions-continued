@@ -7,7 +7,7 @@ const mondayWork = function(activity = "go to the office") {
 };
 
 function wrapAdjective(highlight = "*") {
-  return function(adjective = "hard") {
+  return function(adjective = "a hard worker") {
     return `You are ${highlight}${adjective}${highlight}!`;
   };
 }
